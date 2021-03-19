@@ -11,3 +11,7 @@ os.rmdir("C:\PYthonsil")
 os.listdir("C:")
 # to return a lot of information about directory 
 root ,dirs,files in os.walk("C:")
+
+
+
+#Test edilmedi!!!!
