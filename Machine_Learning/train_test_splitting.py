@@ -1,3 +1,4 @@
+# These codes are the continuation of Creating_dataframe.py codes
 
 ##############################################################################
 # Veri kümesinin eğitim ve test kümeleri olarak bölünmesi
