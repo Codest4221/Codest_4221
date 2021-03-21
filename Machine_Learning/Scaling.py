@@ -1,4 +1,4 @@
-
+# These codes are the continuation of train_test_splitting.py codes
 
 ##############################################################################
 # Öznitelik ölçekleme ( verileri birbirlerine yakın olacak şekilde ölçekleme )( Her zaman kullanılmak zorunda değil )
