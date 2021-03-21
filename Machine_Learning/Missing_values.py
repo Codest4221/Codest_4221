@@ -1,5 +1,6 @@
 ##############################################################################
 # Kütüphanelerin yüklenmesi
+# Importing Modules
 
 import pandas as pd
 import numpy as np
@@ -7,8 +8,9 @@ import matplotlib.pyplot as plt
 
 ##############################################################################
 # Verilerin okunması
+# Reading Files
 
-veriler = pd.read_csv("eksikveriler.csv")
+veriler = pd.read_csv("eksikveriler.csv")  # You can find files named 'eksikveriler.csv'
 print()
 
 ##############################################################################
