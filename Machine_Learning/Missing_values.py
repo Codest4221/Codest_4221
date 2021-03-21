@@ -15,6 +15,7 @@ print()
 
 ##############################################################################
 # eksik verilerin ( missing values ) doldurulması
+# Filling missing values
 
 eksik_veriler = pd.read_csv("eksikveriler.csv")
 print(eksik_veriler)
