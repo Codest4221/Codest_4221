@@ -2,6 +2,7 @@
 
 ##############################################################################
 # Veri kümesinin eğitim ve test kümeleri olarak bölünmesi
+# Splitting the dataset into training and test sets
 
 from sklearn.model_selection import train_test_split
 
