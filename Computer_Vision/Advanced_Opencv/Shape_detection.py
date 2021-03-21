@@ -23,7 +23,7 @@ for i in contours:
     y = apprrox.ravel()[1]
     # detect shape 
     if len(apprrox) == 3:
-        cv2.putText(img,"triabgle", (x,y),cv2.FONT_HERSHEY_SIMPLEX,0.5,(0,0,255),1)
+        cv2.putText(img,"triangle", (x,y),cv2.FONT_HERSHEY_SIMPLEX,0.5,(0,0,255),1)
     elif len(apprrox) == 4:
         cv2.putText(img, "rectange", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
     elif len(apprrox) == 5:
