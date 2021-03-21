@@ -27,7 +27,7 @@ for i in contours:
     elif len(apprrox) == 4:
         cv2.putText(img, "rectange", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
     elif len(apprrox) == 5:
-        cv2.putText(img, "fiveabgle", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
+        cv2.putText(img, "pentagon", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
     else: cv2.putText(img, "other", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
 cv2.imshow("fotose", img)
 
