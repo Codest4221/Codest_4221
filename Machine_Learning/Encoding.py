@@ -1,4 +1,4 @@
-# These codes are the continuation of missing_value.py codes
+# These codes are the continuation of Missing_values.py codes
 
 ##############################################################################
 # Encoding: Katagorik veriler => Numeric veriler
