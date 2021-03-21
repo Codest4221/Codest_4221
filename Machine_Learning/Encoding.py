@@ -2,7 +2,7 @@
 
 ##############################################################################
 # Encoding: Katagorik veriler => Numeric veriler
-# Encoding process: Converting catagorical data to numeric data
+# Encoding process: Converting catagorical data to numerical data
 
 ulke = veriler.iloc[:,0:1].values
 print(ulke)
