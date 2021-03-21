@@ -1,3 +1,4 @@
+# These codes are the continuation of Encoding.py codes
 ##############################################################################
 # Verilerin birleştirilmesi ve DataFrame oluşturulması
 # Combining data and creating DataFrame
