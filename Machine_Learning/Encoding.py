@@ -16,7 +16,7 @@ le = preprocessing.LabelEncoder()
 ulke[:,0] = le.fit_transform(veriler.iloc[:,0])
 print(ulke)
 
-# One Hot Encoding: If value exist, it enumerates the data as 1. If not, then it enumerates the data as 0.
+# One Hot Encoding: If value exists, it enumerates the data as 1. If not, then it enumerates the data as 0.
 
 ohe = preprocessing.OneHotEncoder()
 ulke = ohe.fit_transform(ulke).toarray()
