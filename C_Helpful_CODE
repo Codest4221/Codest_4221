@@ -2,29 +2,29 @@
 #define SIZE 100
 int main() {
   
-  // decimal'den binary 'ye
-  int N,i,r,a[SIZE]; //  degiskenlerimizi tanimladik
-  i=0;  // desiskenlerimize ilk degerlerini atadik
+  // Decimal to Binary
+  int N,i,r,a[SIZE]; 
+  i=0;  
   r=1;
   
-  printf("#please enter a number: "); // kullanicidan N ' degerini istedik
+  printf("#please enter a number: "); 
 	scanf("%d",&N);
 	
-  while (N>=r){ // girilen sayinin binary acılımında kac basamaktan olustugunu bulmak icin N sayisi belirli bir 2^n sayisina ulasana kadar while icinde donduruldu
+  while (N>=r){ 
 		r=r*2;
-		i++; // i degiskeninde basamak sayisimizi tuttuk
+		i++; 
 	}
   for (int j=i;j>=1;j--){
-  //  decimalden binarye cevirilen sayi her basamakta 2'ye bolunup kalanları tersten yazarak bulunur
-  bundan dolayı bu islemde cıkan 1 ve 0 ları bir dizi içinde tuttuk //
+  
 		
 		a[j] = N%2; 
 		N = (N- N%2)/2;
 		
-	}
-	for (int j=1;j<=i;j++){ // olusan diziyi ekrana yazdirinca sonuc ortaya cıkacaktır
+   }
+   for (int j=1;j<=i;j++){ 
 		
-		printf(" %d ",a[j]);
-	}
+	printf(" %d ",a[j]);
+   }
+
   return 0;
 }
