@@ -14,13 +14,15 @@ int main() {
 		r=r*2;
 		i++; // i degiskeninde basamak sayisimizi tuttuk
 	}
-  for (int j=i;j>=1;j--){ //  
+  for (int j=i;j>=1;j--){
+  //  decimalden binarye cevirilen sayi her basamakta 2'ye bolunup kalanları tersten yazarak bulunur
+  bundan dolayı bu islemde cıkan 1 ve 0 ları bir dizi içinde tuttuk //
 		
-		a[j] = N%2;
+		a[j] = N%2; 
 		N = (N- N%2)/2;
 		
 	}
-	for (int j=1;j<=i;j++){
+	for (int j=1;j<=i;j++){ // olusan diziyi ekrana yazdirinca sonuc ortaya cıkacaktır
 		
 		printf(" %d ",a[j]);
 	}
